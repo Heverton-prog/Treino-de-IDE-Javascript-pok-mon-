@@ -1,0 +1,20 @@
+// saída
+console.log("Digite seu nome de jogador")
+
+//declara uma variável
+let nickname = "Heverton iniciante em programação"
+
+//concantenando uma mensagem fixa + uma variável
+console.log("Bem-vindo " + nickname)
+
+//concantenando variável + mensagem fixa de entrada de servidor
+console.log(nickname + " :" + " Entrou no servidor")
+
+//saída 
+console.log("Pokémon Go diz: tem um novo Pokémon na sua região")
+console.log("Pokémon Go diz: você foi derrotado por líder")
+
+//saída(Exemplo de concantenação)
+const notificacao = "Pokémon Go diz:"
+console.log(notificacao + " Fique de olho, tem um novo Pokémon na sua região")
+console.log(notificacao + " Que pena, você foi derrotado por outro mestre pokémon")
